@@ -214,11 +214,6 @@
     //NSData *buddyData = [NSPropertyListSerialization dataWithPropertyList:buddyDic format:NSPropertyListXMLFormat_v1_0 options:NSPropertyListWriteInvalidError error:nil];
     //NSLog(@"XML: %@", [[NSString alloc] initWithData:buddyData encoding:NSUTF8StringEncoding]);
     XcapManager *manager = [XcapManager sharedXcapManager];
-    //[manager xcapPutContractsBuddyWithUserId:@"U104@115.28.200.181:5527" buddyStr:xmlStr isAll:NO buddyId:nil success:^(NSURLSessionUploadTask *uploadTask, id responseObj) {
-        
-    //} failure:^(NSURLSessionUploadTask *uploadTask, NSError *error) {
-        
-    //}];
     
 }
 
