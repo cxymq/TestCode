@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CryptorModel.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self test1];//test Regux
+    //[self test1];//test Regux
+    [self test2];//base64 DES
+}
+
+- (void)test2 {
+    NSString *pwd = @"12345678";
+    NSString *key = @"b005cdb3";
+    NSString *serectPwd = [CryptorModel encryptUseDES:pwd key:key];
+    NSString *base64SerectPwd = [CryptorModel base64StringFromText:serectPwd];
+    NSLog(@"base64SerectPwd=%@",base64SerectPwd);
     
+    NSString *unbase64SerectPwd = [CryptorModel textFromBase64String:base64SerectPwd];
+    NSString *unSerectPwd = [CryptorModel decryptUseDES:unbase64SerectPwd key:key];
+    NSLog(@"unSerectPwd=%@",unSerectPwd);
 }
 - (void)test1 {
     NSString *str = @"wqe1244sdf34884";
