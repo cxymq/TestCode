@@ -23,8 +23,8 @@
 }
 
 - (void)test2 {
-    NSString *pwd = @"12345678";
-    NSString *key = @"b005cdb3";
+    NSString *pwd = @"817193";
+    NSString *key = @"09005039";
     NSString *serectPwd = [CryptorModel encryptUseDES:pwd key:key];
     NSString *base64SerectPwd = [CryptorModel base64StringFromText:serectPwd];
     NSLog(@"base64SerectPwd=%@",base64SerectPwd);
