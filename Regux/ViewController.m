@@ -19,7 +19,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //[self test1];//test Regux
-    [self test2];//base64 DES
+    //[self test2];//base64 DES
+    [self test3];//test 16 chratate
+}
+- (void)test3 {
+    NSString *result = @"4";
+    NSString * temp10 = [NSString stringWithFormat:@"%lu",strtoul([result UTF8String],0,16)];
+    NSLog(@"心跳数字 10进制 %@",temp10);
+    //转成数字
+    int cycleNumber = [temp10 intValue];
+    NSLog(@"心跳数字 ：%d",cycleNumber);
 }
 
 - (void)test2 {
