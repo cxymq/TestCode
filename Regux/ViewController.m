@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CryptorModel.h"
+#import "LWLPerson.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     //[self test1];//test Regux
     //[self test2];//base64 DES
-    [self test3];//test 16 chratate
+    //[self test3];//test 16 chratate
+    [self test4];//test class_method
+}
+- (void)test4 {
+    LWLPerson *lwlPerson = [[LWLPerson alloc]init];
+    [lwlPerson changeTitle];
+    NSLog(@"title=%@",lwlPerson.title);
 }
 - (void)test3 {
     NSString *result = @"4";
