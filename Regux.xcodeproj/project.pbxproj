@@ -18,6 +18,7 @@
 		4B5FD7301F457396005F0E4A /* LWLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FD72F1F457396005F0E4A /* LWLPerson.m */; };
 		4BA25C3A1F419CE5007B1774 /* CryptorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA25C391F419CE5007B1774 /* CryptorModel.m */; };
 		4BA25C401F41A128007B1774 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA25C3F1F41A128007B1774 /* GTMBase64.m */; };
+		4BA82E361F4A7D6B000E5D2A /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA82E351F4A7D6B000E5D2A /* XMLParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		4BA25C3E1F41A128007B1774 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		4BA25C3F1F41A128007B1774 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		4BA25C411F41A151007B1774 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		4BA82E341F4A7D6B000E5D2A /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		4BA82E351F4A7D6B000E5D2A /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				4BA25C391F419CE5007B1774 /* CryptorModel.m */,
 				4B5FD72E1F457395005F0E4A /* LWLPerson.h */,
 				4B5FD72F1F457396005F0E4A /* LWLPerson.m */,
+				4BA82E341F4A7D6B000E5D2A /* XMLParser.h */,
+				4BA82E351F4A7D6B000E5D2A /* XMLParser.m */,
 				4B0D32511F3ED8060042B7C9 /* ViewController.m */,
 				4B0D32531F3ED8070042B7C9 /* Main.storyboard */,
 				4B0D32561F3ED8070042B7C9 /* Assets.xcassets */,
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA82E361F4A7D6B000E5D2A /* XMLParser.m in Sources */,
 				4B5FD7301F457396005F0E4A /* LWLPerson.m in Sources */,
 				4B0D32521F3ED8060042B7C9 /* ViewController.m in Sources */,
 				4BA25C3A1F419CE5007B1774 /* CryptorModel.m in Sources */,

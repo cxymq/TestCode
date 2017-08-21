@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CryptorModel.h"
 #import "LWLPerson.h"
+#import "XMLParser.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,22 @@
     //[self test1];//test Regux
     //[self test2];//base64 DES
     //[self test3];//test 16 chratate
-    [self test4];//test class_method
+    //[self test4];//test class_method
+    [self test5];//test xml parse
+}
+- (void)test5 {
+    NSString *xml = @"<buddy ver=\"1502697089457\" name=\"西西科技大管家1\" type=\"BM\" id=\"90416dcbdc2b\" mainType=\"SERVICE\">\
+    <menu id=\"1587657524438178\" name=\"演示房间1\" >\
+        <light id=\"1587657524438178_1\" name=\"客卧灯\"/>\
+        <light id=\"1587657524438178_2\" name=\"客卧灯2\"/>\
+        <aircondition id=\"345890\" name=\"空调\" airconditionCode =\"G829\"/>\
+    </menu>\
+    <menu id=\"1002\" name=\"演示房间2\" pwd=\"\"/>\
+    </buddy>";
+    XMLParser *parse = [[XMLParser alloc]init];
+    NSArray *result = [parse parseData:[xml dataUsingEncoding:NSUTF8StringEncoding
+                                        ]];
+    NSLog(@"result = %@",result);
 }
 - (void)test4 {
     LWLPerson *lwlPerson = [[LWLPerson alloc]init];
