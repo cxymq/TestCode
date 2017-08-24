@@ -24,7 +24,12 @@
     //[self test2];//base64 DES
     //[self test3];//test 16 chratate
     //[self test4];//test class_method
-    [self test5];//test xml parse
+    //[self test5];//test xml parse
+    [self test6];//test after crashed,get logs from iphone
+}
+- (void)test6 {
+    NSArray *arr = @[@"1",@"2"];
+    NSLog(@"%@",[arr objectAtIndex:6]);
 }
 - (void)test5 {
     NSString *xml = @"<buddy ver=\"1502697089457\" name=\"西西科技大管家1\" type=\"BM\" id=\"90416dcbdc2b\" mainType=\"SERVICE\">\
