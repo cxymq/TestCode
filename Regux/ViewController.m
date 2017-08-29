@@ -9,9 +9,16 @@
 #import "ViewController.h"
 #import "CryptorModel.h"
 #import "LWLPerson.h"
+#import "LWLPerson+Eat.h"
 #import "XMLParser.h"
+#import "LWLVolumeUtil.h"
+
 
 @interface ViewController ()
+
+{
+    CGFloat _oldVolume;
+}
 
 @end
 
@@ -25,8 +32,17 @@
     //[self test3];//test 16 chratate
     //[self test4];//test class_method
     //[self test5];//test xml parse
-    [self test6];//test after crashed,get logs from iphone
+    //[self test6];//test after crashed,get logs from iphone
+    [self test7];//test control volume keys
 }
+
+- (void)test7 {
+    [[LWLVolumeUtil shareInstance] loadVolumeView:self.view];
+    [[LWLVolumeUtil shareInstance] removeVolumeNotification];
+    [[LWLVolumeUtil shareInstance] registerVolumeNotification];
+}
+
+
 - (void)test6 {
     NSArray *arr = @[@"1",@"2"];
     NSLog(@"%@",[arr objectAtIndex:6]);
@@ -49,6 +65,7 @@
     LWLPerson *lwlPerson = [[LWLPerson alloc]init];
     [lwlPerson changeTitle];
     NSLog(@"title=%@",lwlPerson.title);
+    lwlPerson.foodName = @"apple";
 }
 - (void)test3 {
     NSString *result = @"4";

@@ -15,10 +15,12 @@
 		4B0D325A1F3ED8070042B7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0D32581F3ED8070042B7C9 /* LaunchScreen.storyboard */; };
 		4B0D32651F3ED8080042B7C9 /* ReguxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D32641F3ED8080042B7C9 /* ReguxTests.m */; };
 		4B0D32701F3ED8080042B7C9 /* ReguxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D326F1F3ED8080042B7C9 /* ReguxUITests.m */; };
+		4B1BACD91F55061100FECB68 /* LWLVolumeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BACD81F55061000FECB68 /* LWLVolumeUtil.m */; };
 		4B5FD7301F457396005F0E4A /* LWLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FD72F1F457396005F0E4A /* LWLPerson.m */; };
 		4BA25C3A1F419CE5007B1774 /* CryptorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA25C391F419CE5007B1774 /* CryptorModel.m */; };
 		4BA25C401F41A128007B1774 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA25C3F1F41A128007B1774 /* GTMBase64.m */; };
 		4BA82E361F4A7D6B000E5D2A /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA82E351F4A7D6B000E5D2A /* XMLParser.m */; };
+		4BDBAE3E1F51429200130F77 /* LWLPerson+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBAE3D1F51429200130F77 /* LWLPerson+Eat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		4B0D326B1F3ED8080042B7C9 /* ReguxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReguxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0D326F1F3ED8080042B7C9 /* ReguxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReguxUITests.m; sourceTree = "<group>"; };
 		4B0D32711F3ED8080042B7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1BACD51F54F80600FECB68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4B1BACD71F55061000FECB68 /* LWLVolumeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLVolumeUtil.h; sourceTree = "<group>"; };
+		4B1BACD81F55061000FECB68 /* LWLVolumeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLVolumeUtil.m; sourceTree = "<group>"; };
 		4B5FD72E1F457395005F0E4A /* LWLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLPerson.h; sourceTree = "<group>"; };
 		4B5FD72F1F457396005F0E4A /* LWLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLPerson.m; sourceTree = "<group>"; };
 		4BA25C381F419CE5007B1774 /* CryptorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorModel.h; sourceTree = "<group>"; };
@@ -64,6 +69,8 @@
 		4BA25C411F41A151007B1774 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		4BA82E341F4A7D6B000E5D2A /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		4BA82E351F4A7D6B000E5D2A /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		4BDBAE3C1F51429200130F77 /* LWLPerson+Eat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LWLPerson+Eat.h"; sourceTree = "<group>"; };
+		4BDBAE3D1F51429200130F77 /* LWLPerson+Eat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LWLPerson+Eat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +105,7 @@
 				4B0D32631F3ED8080042B7C9 /* ReguxTests */,
 				4B0D326E1F3ED8080042B7C9 /* ReguxUITests */,
 				4B0D32481F3ED8060042B7C9 /* Products */,
+				4B1BACD41F54F80500FECB68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,8 +132,12 @@
 				4BA25C391F419CE5007B1774 /* CryptorModel.m */,
 				4B5FD72E1F457395005F0E4A /* LWLPerson.h */,
 				4B5FD72F1F457396005F0E4A /* LWLPerson.m */,
+				4BDBAE3C1F51429200130F77 /* LWLPerson+Eat.h */,
+				4BDBAE3D1F51429200130F77 /* LWLPerson+Eat.m */,
 				4BA82E341F4A7D6B000E5D2A /* XMLParser.h */,
 				4BA82E351F4A7D6B000E5D2A /* XMLParser.m */,
+				4B1BACD71F55061000FECB68 /* LWLVolumeUtil.h */,
+				4B1BACD81F55061000FECB68 /* LWLVolumeUtil.m */,
 				4B0D32511F3ED8060042B7C9 /* ViewController.m */,
 				4B0D32531F3ED8070042B7C9 /* Main.storyboard */,
 				4B0D32561F3ED8070042B7C9 /* Assets.xcassets */,
@@ -160,6 +172,14 @@
 				4B0D32711F3ED8080042B7C9 /* Info.plist */,
 			);
 			path = ReguxUITests;
+			sourceTree = "<group>";
+		};
+		4B1BACD41F54F80500FECB68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1BACD51F54F80600FECB68 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1BACD91F55061100FECB68 /* LWLVolumeUtil.m in Sources */,
 				4BA82E361F4A7D6B000E5D2A /* XMLParser.m in Sources */,
 				4B5FD7301F457396005F0E4A /* LWLPerson.m in Sources */,
 				4B0D32521F3ED8060042B7C9 /* ViewController.m in Sources */,
 				4BA25C3A1F419CE5007B1774 /* CryptorModel.m in Sources */,
 				4BA25C401F41A128007B1774 /* GTMBase64.m in Sources */,
+				4BDBAE3E1F51429200130F77 /* LWLPerson+Eat.m in Sources */,
 				4B0D324F1F3ED8060042B7C9 /* AppDelegate.m in Sources */,
 				4B0D324C1F3ED8060042B7C9 /* main.m in Sources */,
 			);

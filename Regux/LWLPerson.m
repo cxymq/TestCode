@@ -10,7 +10,6 @@
 #import <objc/runtime.h>
 
 @implementation LWLPerson
-
 -(instancetype)init {
     if (self = [super init]) {
         Method method = class_getInstanceMethod([self class], @selector(changeTitle));
