@@ -16,10 +16,15 @@
 		4B0D32651F3ED8080042B7C9 /* ReguxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D32641F3ED8080042B7C9 /* ReguxTests.m */; };
 		4B0D32701F3ED8080042B7C9 /* ReguxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0D326F1F3ED8080042B7C9 /* ReguxUITests.m */; };
 		4B1BACD91F55061100FECB68 /* LWLVolumeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BACD81F55061000FECB68 /* LWLVolumeUtil.m */; };
+		4B1BACE31F57E4FA00FECB68 /* DownloadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BACE21F57E4FA00FECB68 /* DownloadImage.m */; };
 		4B5FD7301F457396005F0E4A /* LWLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FD72F1F457396005F0E4A /* LWLPerson.m */; };
 		4BA25C3A1F419CE5007B1774 /* CryptorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA25C391F419CE5007B1774 /* CryptorModel.m */; };
 		4BA25C401F41A128007B1774 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA25C3F1F41A128007B1774 /* GTMBase64.m */; };
 		4BA82E361F4A7D6B000E5D2A /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA82E351F4A7D6B000E5D2A /* XMLParser.m */; };
+		4BD5CA3A1F5D04C600DE92D9 /* LWLAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5CA391F5D04C600DE92D9 /* LWLAlertViewController.m */; };
+		4BD5CA3D1F5D22D000DE92D9 /* HideAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5CA3C1F5D22D000DE92D9 /* HideAlert.m */; };
+		4BD5CA431F5D374D00DE92D9 /* WQQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5CA421F5D374D00DE92D9 /* WQQViewController.m */; };
+		4BD5CA461F5D41BE00DE92D9 /* WQQ2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5CA451F5D41BE00DE92D9 /* WQQ2ViewController.m */; };
 		4BDBAE3E1F51429200130F77 /* LWLPerson+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBAE3D1F51429200130F77 /* LWLPerson+Eat.m */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +65,8 @@
 		4B1BACD51F54F80600FECB68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4B1BACD71F55061000FECB68 /* LWLVolumeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLVolumeUtil.h; sourceTree = "<group>"; };
 		4B1BACD81F55061000FECB68 /* LWLVolumeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLVolumeUtil.m; sourceTree = "<group>"; };
+		4B1BACE11F57E4FA00FECB68 /* DownloadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImage.h; sourceTree = "<group>"; };
+		4B1BACE21F57E4FA00FECB68 /* DownloadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImage.m; sourceTree = "<group>"; };
 		4B5FD72E1F457395005F0E4A /* LWLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLPerson.h; sourceTree = "<group>"; };
 		4B5FD72F1F457396005F0E4A /* LWLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLPerson.m; sourceTree = "<group>"; };
 		4BA25C381F419CE5007B1774 /* CryptorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorModel.h; sourceTree = "<group>"; };
@@ -69,6 +76,14 @@
 		4BA25C411F41A151007B1774 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		4BA82E341F4A7D6B000E5D2A /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		4BA82E351F4A7D6B000E5D2A /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		4BD5CA381F5D04C600DE92D9 /* LWLAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLAlertViewController.h; sourceTree = "<group>"; };
+		4BD5CA391F5D04C600DE92D9 /* LWLAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLAlertViewController.m; sourceTree = "<group>"; };
+		4BD5CA3B1F5D22D000DE92D9 /* HideAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideAlert.h; sourceTree = "<group>"; };
+		4BD5CA3C1F5D22D000DE92D9 /* HideAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideAlert.m; sourceTree = "<group>"; };
+		4BD5CA411F5D374D00DE92D9 /* WQQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQQViewController.h; sourceTree = "<group>"; };
+		4BD5CA421F5D374D00DE92D9 /* WQQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQQViewController.m; sourceTree = "<group>"; };
+		4BD5CA441F5D41BE00DE92D9 /* WQQ2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQQ2ViewController.h; sourceTree = "<group>"; };
+		4BD5CA451F5D41BE00DE92D9 /* WQQ2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQQ2ViewController.m; sourceTree = "<group>"; };
 		4BDBAE3C1F51429200130F77 /* LWLPerson+Eat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LWLPerson+Eat.h"; sourceTree = "<group>"; };
 		4BDBAE3D1F51429200130F77 /* LWLPerson+Eat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LWLPerson+Eat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,7 +153,17 @@
 				4BA82E351F4A7D6B000E5D2A /* XMLParser.m */,
 				4B1BACD71F55061000FECB68 /* LWLVolumeUtil.h */,
 				4B1BACD81F55061000FECB68 /* LWLVolumeUtil.m */,
+				4B1BACE11F57E4FA00FECB68 /* DownloadImage.h */,
+				4B1BACE21F57E4FA00FECB68 /* DownloadImage.m */,
+				4BD5CA3B1F5D22D000DE92D9 /* HideAlert.h */,
+				4BD5CA3C1F5D22D000DE92D9 /* HideAlert.m */,
+				4BD5CA381F5D04C600DE92D9 /* LWLAlertViewController.h */,
+				4BD5CA391F5D04C600DE92D9 /* LWLAlertViewController.m */,
 				4B0D32511F3ED8060042B7C9 /* ViewController.m */,
+				4BD5CA411F5D374D00DE92D9 /* WQQViewController.h */,
+				4BD5CA421F5D374D00DE92D9 /* WQQViewController.m */,
+				4BD5CA441F5D41BE00DE92D9 /* WQQ2ViewController.h */,
+				4BD5CA451F5D41BE00DE92D9 /* WQQ2ViewController.m */,
 				4B0D32531F3ED8070042B7C9 /* Main.storyboard */,
 				4B0D32561F3ED8070042B7C9 /* Assets.xcassets */,
 				4B0D32581F3ED8070042B7C9 /* LaunchScreen.storyboard */,
@@ -321,11 +346,16 @@
 				4B1BACD91F55061100FECB68 /* LWLVolumeUtil.m in Sources */,
 				4BA82E361F4A7D6B000E5D2A /* XMLParser.m in Sources */,
 				4B5FD7301F457396005F0E4A /* LWLPerson.m in Sources */,
+				4BD5CA461F5D41BE00DE92D9 /* WQQ2ViewController.m in Sources */,
 				4B0D32521F3ED8060042B7C9 /* ViewController.m in Sources */,
 				4BA25C3A1F419CE5007B1774 /* CryptorModel.m in Sources */,
+				4B1BACE31F57E4FA00FECB68 /* DownloadImage.m in Sources */,
 				4BA25C401F41A128007B1774 /* GTMBase64.m in Sources */,
+				4BD5CA3A1F5D04C600DE92D9 /* LWLAlertViewController.m in Sources */,
+				4BD5CA3D1F5D22D000DE92D9 /* HideAlert.m in Sources */,
 				4BDBAE3E1F51429200130F77 /* LWLPerson+Eat.m in Sources */,
 				4B0D324F1F3ED8060042B7C9 /* AppDelegate.m in Sources */,
+				4BD5CA431F5D374D00DE92D9 /* WQQViewController.m in Sources */,
 				4B0D324C1F3ED8060042B7C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

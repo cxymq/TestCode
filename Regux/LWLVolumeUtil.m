@@ -43,7 +43,7 @@ static LWLVolumeUtil *v_instance = nil;
 //将MPVolumeView添加到界面上，获取初始音量值
 - (void)loadVolumeView:(UIView *)view {
     [view addSubview:self.volumeView];
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:NULL];
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:NULL];
     _oldVolumeValue = [[AVAudioSession sharedInstance] outputVolume];
     //[[AVAudioSession sharedInstance] outputVolume];
 }

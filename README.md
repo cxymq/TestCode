@@ -8,3 +8,5 @@ test4.runtime of class_method_exchange
 test5.XML Parse
 test6.test crash get logs
 test7.test control volume keys
+test8.should change WQViewController
+test9.test download Images

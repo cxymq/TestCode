@@ -12,12 +12,12 @@
 #import "LWLPerson+Eat.h"
 #import "XMLParser.h"
 #import "LWLVolumeUtil.h"
+#import "DownloadImage.h"
 
 
-@interface ViewController ()
-
+@interface ViewController ()<DownloadImageDelegate>
 {
-    CGFloat _oldVolume;
+    UIImageView *_imgView;
 }
 
 @end
@@ -26,15 +26,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     // Do any additional setup after loading the view, typically from a nib.
     //[self test1];//test Regux
     //[self test2];//base64 DES
     //[self test3];//test 16 chratate
-    //[self test4];//test class_method
+    [self test4];//test class_method
     //[self test5];//test xml parse
     //[self test6];//test after crashed,get logs from iphone
-    [self test7];//test control volume keys
+    //[self test7];//test control volume keys
+    
+    //[self test9];//test download Images
 }
+- (void)test9 {
+    DownloadImage *downImg = [DownloadImage shareInstanceDownload];
+    downImg.delegate = self;
+    UIImage *img = [downImg downloadImageWithUrl:@"http://car3.autoimg.cn/cardfs/product/g21/M02/D5/BF/s_autohomecar__wKjBwlbmk8GAWbNHAAl5k6Z8VT4542.jpg"];
+    _imgView = [[UIImageView alloc]initWithImage:img];
+    _imgView.frame = CGRectMake(100, 100, 200, 200);
+    [self.view addSubview:_imgView];
+}
+-(void)onFinishedWithImg:(UIImage *)img {
+    _imgView.image = img;
+}
+
 
 - (void)test7 {
     [[LWLVolumeUtil shareInstance] loadVolumeView:self.view];
